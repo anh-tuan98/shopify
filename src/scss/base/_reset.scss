@@ -13,8 +13,13 @@ a {
   text-decoration: none;
 }
 
-.r-flex {
+.d-flex {
   display: flex;
   flex-direction: row;
+}
+
+.r-flex {
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
