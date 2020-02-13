@@ -1,0 +1,78 @@
+.intro {
+  &__ip {
+    width: 80%;
+    padding: 20px;
+    border: 1px solid $primary-bg-color;
+  }
+  &__btn {
+    width: 80%;
+    padding: 13px 30px;
+    margin-top: 8px;
+  }
+
+  .clip {
+    &__img {
+      width: 100%;
+    }
+
+    &__button {
+      bottom: 25px;
+      position: absolute;
+      left: 50px;
+      box-sizing: border-box;
+      display: block;
+      width: 50px;
+      height: 50px;
+      padding-top: 8px;
+      padding-left: 6px;
+      line-height: 20px;
+      border: 6px solid #fff;
+      border-radius: 50%;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      background-color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      &:hover {
+        transform: scale(1.2);
+      }
+      .fa {
+        color: rgb(0, 0, 0);
+      }
+    }
+  }
+}
+
+.photo {
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+
+  &__img-first {
+    margin-top: auto;
+  }
+
+  &__img {
+    margin-left: 30px;
+  }
+  .img-type {
+    width: 100%;
+  }
+}
+
+.client {
+  .heading {
+    text-align: center;
+  }
+
+  &__grid {
+    .market-images {
+      .img-list {
+        width: 100%;
+      }
+    }
+  }
+}
