@@ -1,5 +1,6 @@
 .header-page {
   background-color: $background-color;
+  padding-top: 20px;
 
   .navbar {
     margin: auto;
@@ -14,6 +15,10 @@
       .nav__item {
         .nav-link {
           color: $primary-text-color;
+          &:hover {
+            cursor: pointer;
+            color: $primary-text-color;
+          }
         }
 
         .fa-chevron-down {
@@ -25,10 +30,15 @@
     }
 
     .btn-header {
+      color: $primary-color;
       padding: 8px 20px;
-    }
+      border-color: transparent;
 
-    &__heading {
+      &:hover {
+        color: $primary-color;
+        background: $primary-text-color;
+        text-decoration: none;
+      }
     }
   }
 }
