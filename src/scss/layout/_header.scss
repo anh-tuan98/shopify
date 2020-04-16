@@ -1,0 +1,44 @@
+.header-page {
+  background-color: $background-color;
+  padding-top: 20px;
+
+  .navbar {
+    margin: auto;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    padding: 0px;
+
+    .nav-collapse {
+      text-align: right;
+      .nav__item {
+        .nav-link {
+          color: $primary-text-color;
+          &:hover {
+            cursor: pointer;
+            color: $primary-text-color;
+          }
+        }
+
+        .fa-chevron-down {
+          font-size: 1.0625em;
+          width: 12px;
+          height: 6px;
+        }
+      }
+    }
+
+    .btn-header {
+      color: $primary-color;
+      padding: 8px 20px;
+      border-color: transparent;
+
+      &:hover {
+        color: $primary-color;
+        background: $primary-text-color;
+        text-decoration: none;
+      }
+    }
+  }
+}

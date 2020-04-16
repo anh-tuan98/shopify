@@ -1,0 +1,89 @@
+.footer-page {
+  background-color: #002e25;
+  &__section-last {
+    border-top: 1px solid rgba(210, 213, 217, 0.1);
+  }
+}
+
+.about {
+  border-bottom: 1px solid rgba(210, 213, 217, 0.1);
+  margin-bottom: 1.5625em;
+
+  &__link {
+    font-weight: 700;
+    font-size: 1em;
+    margin-right: 1em;
+    color: $primary-color;
+    display: inline-block;
+    line-height: 70px;
+    border-bottom: 2px solid #002e25;
+
+    &:hover {
+      text-decoration: none;
+      color: $primary-color;
+      border-color: $primary-color;
+    }
+  }
+}
+
+.contact {
+  .contact-item {
+    margin-right: 30px;
+    color: $primary-color;
+    font-weight: 700;
+
+    &__link {
+      text-decoration: none;
+      cursor: pointer;
+      font-size: 1em;
+      line-height: 1.5;
+      color: $primary-p-color;
+      font-weight: 400;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}
+.last {
+  .social {
+    padding: 32px 0px;
+
+    &__icon {
+      .icon-extend {
+        margin-right: 8px;
+        color: $primary-color;
+      }
+    }
+  }
+
+  .world {
+    padding: 32px 0px;
+
+    &__para {
+      margin-right: 20px;
+      color: $primary-color;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    .dropdown {
+      display: contents;
+      .btn-secondary.dropdown-toggle {
+        background-color: #002e25;
+        color: $primary-color;
+        box-shadow: 0 0 0 0;
+        border-color: #002e25;
+      }
+    }
+    &__btn {
+      color: $primary-color;
+      background-color: #002e25;
+      box-shadow: 0 0 0 0;
+      border-radius: 0px;
+      padding: 0px;
+      border-color: #002e25;
+    }
+  }
+}

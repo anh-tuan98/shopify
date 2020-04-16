@@ -1,0 +1,25 @@
+html,
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.r-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}

@@ -1,0 +1,17 @@
+$primary-color: #ffffff;
+$primary-bg-color: #008060;
+$background-color: #dff7e5;
+$primary-text-color: #004c3f;
+$primary-p-color: #6b7177;
+
+$breakpoints: (
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$sm: map-get($breakpoints, "sm");
+$md: map-get($breakpoints, "md");
+$lg: map-get($breakpoints, "lg");
+$xl: map-get($breakpoints, "xl");
